@@ -1,0 +1,377 @@
+[
+  {
+    "category": "01",
+    "question": "两个头文件互相包含导致类型未定义，怎么打破这个循环？",
+    "expected": "07_头文件依赖原则与循环依赖解决.md"
+  },
+  {
+    "category": "01",
+    "question": "同一个头文件被多次包含导致重定义，有什么规范做法？",
+    "expected": "04_include守卫与pragma once工程规范.md"
+  },
+  {
+    "category": "01",
+    "question": "预处理阶段宏在源码里是怎么被展开替换的？",
+    "expected": "09_宏定义、宏展开、宏替换底层机制.md"
+  },
+  {
+    "category": "01",
+    "question": "带参数的宏和普通函数有什么区别，容易踩什么坑？",
+    "expected": "08_宏函数与普通函数差异及踩坑.md"
+  },
+  {
+    "category": "01",
+    "question": "函数里的 static 局部变量什么时候初始化、什么时候销毁？",
+    "expected": "05_全局变量、局部变量、静态变量生命周期.md"
+  },
+  {
+    "category": "01",
+    "question": "一个文件里定义的全局变量，另一个文件怎么引用？",
+    "expected": "03_extern跨文件符号引用规范.md"
+  },
+  {
+    "category": "01",
+    "question": "volatile 关键字到底保证什么、不保证什么？",
+    "expected": "01_const、static、volatile底层修饰原理.md"
+  },
+  {
+    "category": "01",
+    "question": "结构体成员之间为什么有填充字节，大小怎么计算？",
+    "expected": "11_结构体、联合体内存对齐规则.md"
+  },
+  {
+    "category": "01",
+    "question": "C++ 的引用在底层是怎么实现的，和指针有何区别？",
+    "expected": "10_指针与引用底层本质与工程区别.md"
+  },
+  {
+    "category": "01",
+    "question": "调用函数时报 implicit declaration of function 是什么原因？",
+    "expected": "06_函数隐式声明报错成因与规避.md"
+  },
+  {
+    "category": "01",
+    "question": "C++ 调用 C 编译的函数链接失败，extern \"C\" 是做什么的？",
+    "expected": "02_C_C++ 语法差异与混编基础规则.md"
+  },
+  {
+    "category": "01",
+    "question": "#ifdef、#pragma 这些预处理指令分别有什么作用？",
+    "expected": "12_预处理所有指令完整解析.md"
+  },
+  {
+    "category": "02",
+    "question": "从 .c 文件到可执行文件，gcc 要经过哪几个阶段？",
+    "expected": "04_GCC_G++ 完整编译四阶段详解.md"
+  },
+  {
+    "category": "02",
+    "question": "预处理阶段具体做什么，常见报错有哪些？",
+    "expected": "01_预处理阶段完整流程与所有报错汇总.md"
+  },
+  {
+    "category": "02",
+    "question": "编译器在编译阶段如何做语法和类型检查？",
+    "expected": "02_编译阶段语法检查、类型检查原理.md"
+  },
+  {
+    "category": "02",
+    "question": "汇编阶段报错一般是什么原因造成的？",
+    "expected": "03_汇编阶段代码转换机制与报错.md"
+  },
+  {
+    "category": "02",
+    "question": "遇到一堆语法错误和类型不匹配，应该按什么流程排查？",
+    "expected": "05_语法报错、类型不匹配通用排查流程.md"
+  },
+  {
+    "category": "02",
+    "question": "分号、括号这类标点符号缺失或多余会导致哪些编译报错？",
+    "expected": "06_缺失、多余标点符号语法报错.md"
+  },
+  {
+    "category": "02",
+    "question": "fatal error: xxx.h: No such file or directory 应该怎么排查？",
+    "expected": "07_头文件未找到报错多级排查.md"
+  },
+  {
+    "category": "02",
+    "question": "哪些编译警告不能忽略，可能会变成线上隐患？",
+    "expected": "08_编译警告转隐患的工程场景.md"
+  },
+  {
+    "category": "02",
+    "question": "找不到标准库头文件、链接标准库失败怎么修复？",
+    "expected": "09_标准库缺失编译报错修复.md"
+  },
+  {
+    "category": "02",
+    "question": "-O0 和 -O2 编译出来的程序行为不一样，为什么？",
+    "expected": "10_编译 O0_O1_O2_O3 优化等级差异.md"
+  },
+  {
+    "category": "02",
+    "question": "开了优化以后程序结果变了或者编译不过，是什么原因？",
+    "expected": "11_优化导致编译异常与逻辑bug.md"
+  },
+  {
+    "category": "02",
+    "question": "同一份代码在 Windows 和 Linux 下编译行为不同，怎么处理？",
+    "expected": "12_跨平台编译语法兼容问题.md"
+  },
+  {
+    "category": "03",
+    "question": "链接器报 undefined reference，应该先查什么？",
+    "expected": "03_undefined reference 万能排查流程.md"
+  },
+  {
+    "category": "03",
+    "question": "静态链接和动态链接在内存共享上有什么区别？",
+    "expected": "01_静态链接与动态链接底层原理.md"
+  },
+  {
+    "category": "03",
+    "question": "链接器是怎么把未定义符号和定义对上、再改写地址的？",
+    "expected": "02_符号解析与重定位完整机制.md"
+  },
+  {
+    "category": "03",
+    "question": "同一个函数在多个源文件里都定义了，链接报错怎么彻底解决？",
+    "expected": "04_multiple definition 多重定义根治方案.md"
+  },
+  {
+    "category": "03",
+    "question": "静态库明明有符号，链接顺序写错就报未定义怎么办？",
+    "expected": "05_静态库链接顺序依赖报错.md"
+  },
+  {
+    "category": "03",
+    "question": "Linux 程序启动时报找不到 libxxx.so，怎么排查？",
+    "expected": "06_动态库.so_dll 依赖缺失报错.md"
+  },
+  {
+    "category": "03",
+    "question": "弱符号和强符号在链接时按什么规则选择？",
+    "expected": "07_未定义弱符号、强符号机制.md"
+  },
+  {
+    "category": "03",
+    "question": "两个动态库导出同名函数，运行时调用的是哪一个？",
+    "expected": "08_全局符号冲突底层成因.md"
+  },
+  {
+    "category": "03",
+    "question": "链接脚本里的 VMA 和 LMA 有什么区别？",
+    "expected": "09_链接脚本基础原理与段分配.md"
+  },
+  {
+    "category": "03",
+    "question": "程序启动时动态链接器做了哪些事，报 symbol lookup error 说明什么？",
+    "expected": "10_动态链接器加载流程与报错.md"
+  },
+  {
+    "category": "03",
+    "question": "GLIBC_2.34 not found 或者库版本 ABI 不兼容怎么修复？",
+    "expected": "11_库版本不兼容链接失败修复.md"
+  },
+  {
+    "category": "03",
+    "question": "inline 函数为什么还会报 undefined reference？",
+    "expected": "12_内联函数链接缺失问题.md"
+  },
+  {
+    "category": "03",
+    "question": "模板类的成员函数放在 cpp 里为什么链接找不到？",
+    "expected": "13_模板类符号链接缺失原理.md"
+  },
+  {
+    "category": "03",
+    "question": "可执行文件的 .symtab 和 .dynsym 有什么区别？",
+    "expected": "14_可执行文件符号表原理.md"
+  },
+  {
+    "category": "04",
+    "question": "ELF 的 section 和 segment 有什么区别？",
+    "expected": "01_ELF 文件结构完整解析（可执行_静态库_动态库）.md"
+  },
+  {
+    "category": "04",
+    "question": "进程的虚拟地址空间从低到高是怎么布局的？",
+    "expected": "02_进程虚拟内存空间完整布局.md"
+  },
+  {
+    "category": "04",
+    "question": "代码段为什么是只读的，多个进程怎么共享？",
+    "expected": "03_text 代码段底层特性与运行机制.md"
+  },
+  {
+    "category": "04",
+    "question": "bss 段为什么不占文件空间，什么时候补零？",
+    "expected": "04_data_bss 段初始化与零填充原理.md"
+  },
+  {
+    "category": "04",
+    "question": "栈向哪个方向生长，函数调用时栈帧里有什么？",
+    "expected": "05_stack 栈空间特性与生长规则.md"
+  },
+  {
+    "category": "04",
+    "question": "malloc 向内核申请内存时 brk 和 mmap 怎么选？",
+    "expected": "06_heap 堆空间分配与内核交互机制.md"
+  },
+  {
+    "category": "04",
+    "question": "内核启动程序时先执行 _start 还是 main？",
+    "expected": "07_程序启动入口_start 与 main 关系.md"
+  },
+  {
+    "category": "04",
+    "question": "dlopen 加载插件时 RTLD_LOCAL 和 RTLD_GLOBAL 有什么区别？",
+    "expected": "08_动态库运行时加载与卸载流程.md"
+  },
+  {
+    "category": "04",
+    "question": "ASLR 随机化了哪些内存区域？",
+    "expected": "09_地址空间布局随机化 ASLR 原理.md"
+  },
+  {
+    "category": "04",
+    "question": "setuid 程序和页表权限分别怎么控制进程能力？",
+    "expected": "10_进程权限、内存保护机制.md"
+  },
+  {
+    "category": "04",
+    "question": "exit 和 _exit 在资源回收上有什么区别？",
+    "expected": "11_程序退出资源回收底层机制.md"
+  },
+  {
+    "category": "05",
+    "question": "堆内存泄漏有哪些常见场景，怎么定位？",
+    "expected": "01_堆内存泄漏所有场景与定位方案.md"
+  },
+  {
+    "category": "05",
+    "question": "野指针和悬空指针是怎么产生的，怎么避免？",
+    "expected": "02_野指针、悬空指针成因与彻底规避.md"
+  },
+  {
+    "category": "05",
+    "question": "栈溢出和缓冲区溢出有什么区别，怎么防护？",
+    "expected": "03_栈溢出缓冲区溢出原理与防护.md"
+  },
+  {
+    "category": "05",
+    "question": "同一块内存被释放两次报 double free，根因是什么？",
+    "expected": "04_double free 重复释放报错根治.md"
+  },
+  {
+    "category": "05",
+    "question": "越界读写为什么经常不崩溃，怎么排查？",
+    "expected": "05_内存越界读写隐蔽 bug 排查.md"
+  },
+  {
+    "category": "05",
+    "question": "new 和 delete 底层分别做了哪些事？",
+    "expected": "06_new_delete 底层内存分配机制.md"
+  },
+  {
+    "category": "05",
+    "question": "glibc 的 malloc/free 是怎么管理内存的？",
+    "expected": "07_malloc_free 底层实现差异.md"
+  },
+  {
+    "category": "05",
+    "question": "unique_ptr、shared_ptr、weak_ptr 的所有权有什么区别？",
+    "expected": "08_智能指针生命周期与资源管理.md"
+  },
+  {
+    "category": "05",
+    "question": "文件描述符泄漏会导致什么，怎么检测？",
+    "expected": "09_文件句柄泄漏成因与检测.md"
+  },
+  {
+    "category": "05",
+    "question": "线程创建后不 join 也不 detach 会怎样？",
+    "expected": "10_线程句柄、内核资源泄漏.md"
+  },
+  {
+    "category": "05",
+    "question": "内存碎片是怎么产生的，怎么优化？",
+    "expected": "11_内存碎片产生原理与工程优化.md"
+  },
+  {
+    "category": "05",
+    "question": "结构体内存对齐规则是什么，怎么减少填充？",
+    "expected": "12_结构体内存对齐与内存浪费优化.md"
+  },
+  {
+    "category": "05",
+    "question": "全局变量和静态变量常驻会带来哪些风险？",
+    "expected": "13_全局内存、静态内存常驻风险.md"
+  },
+  {
+    "category": "05",
+    "question": "两个线程同时写一个变量为什么会产生脏数据？",
+    "expected": "14_多线程内存竞争与脏数据原理.md"
+  },
+  {
+    "category": "06",
+    "question": "GDB 常用的断点、单步、查看调用栈命令有哪些？",
+    "expected": "01_GDB 完整调试命令体系与实战流程.md"
+  },
+  {
+    "category": "06",
+    "question": "怎么开启 CoreDump，core 文件生成在哪里？",
+    "expected": "02_CoreDump 开关配置与崩溃文件生成.md"
+  },
+  {
+    "category": "06",
+    "question": "拿到 core 文件后怎么分析崩溃堆栈？",
+    "expected": "03_CoreDump 堆栈解析完整排错流程.md"
+  },
+  {
+    "category": "06",
+    "question": "怎么把崩溃地址转换成源码行号？",
+    "expected": "04_addr2line 行号定位崩溃代码.md"
+  },
+  {
+    "category": "06",
+    "question": "怎么用 Valgrind 精准检测内存泄漏？",
+    "expected": "05_Valgrind 内存泄漏精准检测教程.md"
+  },
+  {
+    "category": "06",
+    "question": "Valgrind 报 Invalid read/write 应该怎么排查？",
+    "expected": "06_Valgrind 内存越界排查实战.md"
+  },
+  {
+    "category": "06",
+    "question": "ASAN 的原理是什么，怎么开启？",
+    "expected": "07_ASAN 内存检测工具使用与原理.md"
+  },
+  {
+    "category": "06",
+    "question": "程序段错误崩溃了，通用定位流程是什么？",
+    "expected": "08_程序崩溃、段错误通用定位链路.md"
+  },
+  {
+    "category": "06",
+    "question": "日志级别怎么划分，线上日志要注意什么？",
+    "expected": "09_日志分级打印工程调试规范.md"
+  },
+  {
+    "category": "06",
+    "question": "编译、运行、崩溃问题应该怎么分层排查？",
+    "expected": "10_编译、运行、崩溃分层排查方法论.md"
+  },
+  {
+    "category": "07",
+    "question": "Makefile 怎么正确管理头文件依赖和库顺序？",
+    "expected": "01_Makefile 通用编写、依赖、编译链路规范.md"
+  },
+  {
+    "category": "07",
+    "question": "CMake 的 PUBLIC/PRIVATE/INTERFACE 和依赖查找怎么用？",
+    "expected": "02_CMake 通用构建逻辑、依赖查找、编译配置.md"
+  }
+]

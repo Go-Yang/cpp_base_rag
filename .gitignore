@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local vector databases (generated)
+chroma_cpp_base_db/
+chroma_eval_db/
+
+# Local model files (download separately; see README)
+models/
+
+# Local-only tooling / agent config
+.claude/
+apply_structure.py
+push_to_github.sh
+*.log
